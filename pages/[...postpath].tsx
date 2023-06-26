@@ -19,7 +19,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					`https://homeopathinfo.com/` + encodeURI(path as string)
+					` https://homeopathinfo.com/graphql/` + encodeURI(path as string)
 				}`,
 			},
 		};
